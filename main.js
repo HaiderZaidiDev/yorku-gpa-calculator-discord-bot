@@ -70,11 +70,8 @@ mean_gpa = (grades) => {
     var point = scale[grade]*weight;
     points.push(point)
   }
-
   const mean_grade = sum(points)/sum(weights)
   return mean_grade
-
-
 }
 
 client.on('message', msg => {
